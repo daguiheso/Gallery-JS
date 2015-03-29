@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+	<!-- HEADER -->
 	<nav class="navbar navbar-inverse">
 		<div class="navbar-header">
 	  	<a class="navbar-brand" href="#">Gallery JS</a>
@@ -17,26 +18,36 @@
 	    <li><a href="#">Link</a></li>
 	  </ul>
 	</nav>
-	<section class="container">
-		<div class="caja">		
+	<!-- SECTION -->
+	<section id="container">
+		<!-- BOMBILLA -->
+		<div class="caja thumbnail">	
 			<h4>JavaScript Can Change HTML Attributes</h4>
 			<img id="myImage" onclick="changeImage()" src="images/pic_bulboff.gif" width="100" height="180">
 			<p>Click the light bulb to turn on/off the light.</p>
 		</div>
-	</section>
+		<!-- CHANGE HTML STYLES CSS -->
+		<div class="caja thumbnail">
+			<h4 id="demo">JavaScript can change the style of an HTML element.</h4>
+			<button type="button" onclick="myFunction()">Click Me!</button>
+		</div>
+		<!-- VALIDATE INPUT -->
+		<div class="caja thumbnail">
+			<h4>JavaScript Can Validate Input</h4>
 
-	<script>
-	function changeImage() {
-	    var image = document.getElementById('myImage');
-	    if (image.src.match("bulbon")) {
-	        image.src = "images/pic_bulboff.gif";
-	    } else {
-	        image.src = "images/pic_bulbon.gif";
-	    }
-	}
-	</script>
+			<p>Please input a number between 1 and 10:</p>
+
+			<input id="numb" type="number">
+
+			<button type="button" onclick="myFunctionVI()">Submit</button>
+
+			<p id="demoVI"></p>
+		</div>
+	</section>
 	<script type="text/javascript" src="vendors/jquery/jquery.js"></script>
 	<script type="text/javascript" src="vendors/bootstrap/bootstrap.js"></script>
+	<script type="text/javascript" src="vendors/masonry/masonry.js"></script>
+	<script type="text/javascript" src="js/gallery.js"></script>
 </body>
 </html>
 

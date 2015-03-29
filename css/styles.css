@@ -13,3 +13,15 @@ nav img {
 	text-align: center;
 	float: left;
 }
+
+#container {
+	padding: 0 20px;
+	height: auto;
+	width: auto;
+}
+
+
+#container {
+  margin: 0 auto;
+  text-align: center;
+}
