@@ -1,0 +1,9 @@
+{
+  "name": "JS",
+  "version": "0.0.1",
+  "description": "Gallery JS",
+  "dependencies": {  	
+    "normalize.css": "latest",
+    "semantic-ui": "latest"
+  }
+}
