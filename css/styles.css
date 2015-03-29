@@ -1,0 +1,15 @@
+nav img {
+	border-radius: 50%;
+	float: left;
+	height: 40px;
+	margin: 5px 6px;
+	z-index: 5;
+}
+
+.caja {
+	width: 400px;
+	border-radius: 4px;
+	background: #F5F7F7;
+	text-align: center;
+	float: left;
+}
