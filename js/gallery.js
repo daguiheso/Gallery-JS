@@ -1,4 +1,4 @@
-// Bombilla 
+// BOMBILLA
 
 	function changeImage() {
     var image = document.getElementById('myImage');
@@ -34,12 +34,19 @@
     document.getElementById("demoVI").innerHTML = text;
 	}
 
+// INNERHTML
+
+  function myFunctionJSH() {
+      document.getElementById("jsh").innerHTML = "Paragraph changed.";
+  }
+
 // MASONRY 
 
 	var container = document.querySelector('#container');
 	var msnry = new Masonry( container, {
 	  // options
 	  columnWidth: 20,
-	  "isFitWidth": true,
-	  itemSelector: '.caja'
+    "isOriginLeft": false,
+    "isFitWidth": true,
+    itemSelector: '.caja'
 	});

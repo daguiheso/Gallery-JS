@@ -14,8 +14,8 @@
 	  	<img src="images/js50x50.jpg">
 	  </div>
 	  <ul class="nav navbar-nav">
-		  <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-	    <li><a href="#">Link</a></li>
+		  <li class="active"><a href="#">JS Basico<span class="sr-only">(current)</span></a></li>
+	    <li><a href="#">JS Avanzado</a></li>
 	  </ul>
 	</nav>
 	<!-- SECTION -->
@@ -29,7 +29,7 @@
 		<!-- CHANGE HTML STYLES CSS -->
 		<div class="caja thumbnail">
 			<h4 id="demo">JavaScript can change the style of an HTML element.</h4>
-			<button type="button" onclick="myFunction()">Click Me!</button>
+			<button class="btn btn-primary" type="button" onclick="myFunction()">Click Me!</button>
 		</div>
 		<!-- VALIDATE INPUT -->
 		<div class="caja thumbnail">
@@ -37,11 +37,17 @@
 
 			<p>Please input a number between 1 and 10:</p>
 
-			<input id="numb" type="number">
+			<input id="numb" type="number" class="form-control">
 
-			<button type="button" onclick="myFunctionVI()">Submit</button>
+			<button class="btn btn-primary" type="button" onclick="myFunctionVI()">Submit</button>
 
 			<p id="demoVI"></p>
+		</div>
+		<!-- INNERHTML -->
+		<div class="caja thumbnail">
+			<h4>My Web Page</h4>
+			<p id="jsh">A Paragraph</p>
+			<button class="btn btn-primary" type="button" onclick="myFunctionJSH()">Try it</button>
 		</div>
 	</section>
 	<script type="text/javascript" src="vendors/jquery/jquery.js"></script>
